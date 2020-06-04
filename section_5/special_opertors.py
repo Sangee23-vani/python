@@ -18,6 +18,8 @@ for item in enumerate(my_list):
 
 my_list1 = [1,2,3,4,5,6]
 my_list2 = ['a','b','c','d']
+zipped_list = zip(my_list1,my_list2)
+print(zipped_list)
 final_list = list(zip(my_list1,my_list2))
 print('Final zipped list is {}'.format(final_list))
 

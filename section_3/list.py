@@ -50,3 +50,11 @@ char_list.sort()
 num_list.sort()
 print('Reverse char_list {}'.format(char_list))
 print('Reverse num_list {}'.format(num_list))
+
+tic_list = ['','','']
+if 1 in tic_list or 2 in tic_list or 3 in tic_list or 4 in tic_list or 5 in tic_list or 6 in tic_list or 7 in tic_list or 8 in tic_list or 9 in tic_list:
+    print('Good list')
+else:
+    print('bad list')
+print(len(tic_list))
+
